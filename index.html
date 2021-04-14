@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Component Library</title>
 </head>
 
@@ -19,6 +20,7 @@
     <h1>This the biggest Heading</h1>
     <h2>This is the second biggest</h2>
     <p>Let me show you the normal text. this is freee flowing and will wrap at the end like a pararaph.</p>
+    <p> This paragraph will have a <strong>bold</strong> text</p>
     <small>this is relatively smaller text</small>
 
     <hr>
@@ -26,38 +28,39 @@
     <h2>@container</h2>
 
     <h3>fluid container</h3>
-    <div>This is a fluid container and it will go till the end of the page</div>
+    <div class="container">This is a fluid container and it will go till the end of the page</div>
 
     <h3>center container</h3>
-    <div>this is centered container and it will go till the specified width</div>
+    <div class="container container-center">this is centered container and it will go till the specified width</div>
 
     <hr>
 
     <h2>@links</h2>
 
-    <a href="/">Primary Link</a>
-    <a href="/">Secondary Link</a>
+    <a class="link link-primary" href="/">Primary Link</a>
+    <a class="link link-secondary" href="/">Secondary Link</a>
 
     <hr>
 
     <h2>@lists</h2>
     <h3>unordered list</h3>
+    <p>This list will not have the bullet</p>
 
-    <ul>
+    <ul class="list-non-bullet">
         <li>Item One</li>
         <li>Item Two</li>
         <li>Item Three</li>
     </ul>
 
-    <ul>
-        <li>Inline Item One</li>
-        <li>Inline Item Two</li>
-        <li>Inline Item Three</li>
+    <ul class="list-non-bullet">
+        <li class="list-item-inline">Inline Item One</li>
+        <li class="list-item-inline">Inline Item Two</li>
+        <li class="list-item-inline">Inline Item Three</li>
     </ul>
 
     <h3>reverse ordered list</h3>
 
-    <ol>
+    <ol reversed>
         <li>milk</li>
         <li>eggs</li>
         <li>break</li>
@@ -67,17 +70,17 @@
 
     <h2>@nav</h2>
 
-    <nav>
-        <div>iAmBrand</div>
-        <ul>
-            <li>
-                <a href="/">home</a>
+    <nav class="navigation container">
+        <div class="nav-brand">iAmBrand</div>
+        <ul class="lis-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">home</a>
             </li>
-            <li>
-                <a href="/">products</a>
+            <li class="list-item-inline">
+                <a class="link" href="/">products</a>
             </li>
-            <li>
-                <a href="/">about</a>
+            <li class="list-item-inline">
+                <a class="link" href="/">about</a>
             </li>
         </ul>
     </nav>
@@ -86,35 +89,51 @@
 
     <h2>@header</h2>
 
-    <header>
-        <img src="https://media-exp1.licdn.com/dms/image/C4E03AQH4_R1hZKxTwQ/profile-displayphoto-shrink_200_200/0/1616955416169?e=1622678400&v=beta&t=Lvc98ejl_FlYuDGuGycCnj42tkEN9H-fXE43FyFxhgU"
+    <header class="hero">
+        <img class="hero-img"
+            src="https://media-exp1.licdn.com/dms/image/C4E03AQH4_R1hZKxTwQ/profile-displayphoto-shrink_200_200/0/1616955416169?e=1622678400&v=beta&t=Lvc98ejl_FlYuDGuGycCnj42tkEN9H-fXE43FyFxhgU"
             alt="">
-        <h1>heading inside header</h1>
+        <h1 class="hero-heading">adarsh balak <span class="heading-inverted">The Nizam</span></h1>
     </header>
     <hr>
 
     <h2>@section</h2>
 
-    <section>
-        <h3>white section</h3>
-        <p>This will have white background</p>
+    <section class="section">
+        <div class="container container-center">
+            <h1>white section</h1>
+            <p>This will have white background</p>
     </section>
+    </div>
 
-    <section>
-        <h3>off white section</h3>
-        <p>This will have gray background</p>
+
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>off white section</h1>
+            <p>This will have gray background</p>
+        </div>
     </section>
 
     <hr>
 
     <h2>@footer</h2>
 
-    <div>Some small heading inside footer</div>
-    <ul>
-        <li>socialOne</li>
-        <li>socialTwo</li>
-        <li>socialThree</li>
-    </ul>
+    <footer class="footer">
+        <div class="footer-header">Some small heading inside footer</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link" href="/">socialone</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">socialTwo</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">socialThree</a>
+            </li>
+        </ul>
+    </footer>
+
+
 
     <!-- <div style="height: 30vh;">
 
