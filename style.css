@@ -85,6 +85,11 @@ hr {
   font-weight: bold;
 }
 
+.nav-brand a {
+  color: white;
+  text-decoration: none;
+}
+
 /** header **/
 
 .hero {
