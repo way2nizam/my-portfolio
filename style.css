@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 :root {
   --primary-color: #ef6900;
@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin: 0px;
   text-align: justify;
 }
@@ -98,7 +98,7 @@ hr {
 }
 
 .hero .hero-img {
-  max-width: 350px;
+  max-width: 300px;
   display: block;
   margin: auto;
 }
