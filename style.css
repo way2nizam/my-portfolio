@@ -28,12 +28,18 @@ hr {
   margin: auto;
 }
 
+.container .container-center,
+span {
+  color: rgb(0, 153, 255);
+}
+
 /** links **/
 
 .link {
   box-sizing: border-box;
   text-decoration: none;
   padding: 0.5rem 1rem;
+
   /* margin-top: 1rem;
   margin-bottom: 1rem; */
 }
@@ -114,6 +120,16 @@ hr {
 }
 
 /** sections **/
+
+.about .about-heading {
+  padding-top: 1rem;
+  color: var(--sky-blue);
+  text-align: center;
+}
+
+.about .about-heading .about-inverted {
+  color: var(--primary-color);
+}
 
 .section {
   padding: 2rem;
