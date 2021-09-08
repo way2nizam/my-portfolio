@@ -16,7 +16,7 @@ hr {
   margin: 1rem 0rem;
 }
 
-/** conatiner **/
+/** container **/
 
 .container {
   padding-left: 1rem;
@@ -100,7 +100,7 @@ span {
 /** header **/
 
 .hero {
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .hero .hero-img {
@@ -164,4 +164,21 @@ span {
 
 .footer ul {
   padding-inline-start: 0px;
+}
+
+
+@media only screen and (max-width: 450px) {
+
+  .link {
+    padding: 1rem 0.2rem;
+  }
+
+  .navigation .nav-pills {
+    text-align: center;
+}
+  
+  .nav-brand {
+    text-align: center;
+  }
+  
 }
