@@ -168,6 +168,11 @@ span {
 }
 
 @media only screen and (max-width: 500px) {
+
+  body {
+    text-align: justify;
+  }
+
   .navigation .nav-brand {
     font-weight: bold;
     text-align: center;
