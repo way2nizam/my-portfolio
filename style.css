@@ -9,7 +9,7 @@
 body {
   font-family: 'Montserrat', sans-serif;
   margin: 0px;
-  text-align: justify;
+  text-align: center;
 }
 
 hr {
@@ -39,9 +39,6 @@ span {
   box-sizing: border-box;
   text-decoration: none;
   padding: 0.5rem 1rem;
-
-  /* margin-top: 1rem;
-  margin-bottom: 1rem; */
 }
 
 .link-primary {
@@ -78,10 +75,13 @@ span {
 
 .navigation .nav-brand {
   font-weight: bold;
+  text-align: left;
+  font-size: 22px;
 }
 
 .navigation .nav-pills {
   text-align: right;
+  font-size: 19px;
 }
 
 .navigation .link {
@@ -100,29 +100,20 @@ span {
 /** header **/
 
 .hero {
-  padding: 1rem;
+  padding-top: 3rem;
+  padding-bottom: 0.5rem;
 }
 
 .hero .hero-img {
-  max-width: 200px;
+  max-width: 350px;
   display: block;
   margin: auto;
-}
-
-.hero .hero-heading {
-  padding-top: 1rem;
-  color: var(--sky-blue);
-  text-align: center;
-}
-
-.hero .hero-heading .heading-inverted {
-  color: var(--primary-color);
 }
 
 /** sections **/
 
 .about .about-heading {
-  padding-top: 1rem;
+  padding-top: .2rem;
   color: var(--sky-blue);
   text-align: center;
 }
@@ -141,6 +132,15 @@ span {
 
 .ow {
   background-color: var(--off-white);
+}
+
+.ow span {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.section p {
+  text-align: left;
 }
 
 /** footer **/
@@ -166,19 +166,27 @@ span {
   padding-inline-start: 0px;
 }
 
-
-@media only screen and (max-width: 450px) {
-
-  .link {
-    padding: 1rem 0.2rem;
+@media only screen and (max-width: 500px) {
+  .navigation .nav-brand {
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
   }
 
   .navigation .nav-pills {
     text-align: center;
-}
-  
-  .nav-brand {
-    text-align: center;
+    font-size: 18px;
   }
-  
+
+.link {
+  padding: .2rem;
+}
+
+.link-primary {
+  padding: 10px;
+}
+.link-secondary {
+  padding: 5px;
+}
+
 }
