@@ -81,7 +81,7 @@ span {
 
 .navigation .nav-pills {
   text-align: right;
-  font-size: 19px;
+  font-size: 18px;
 }
 
 .navigation .link {
@@ -137,9 +137,10 @@ span {
 .ow span {
   font-weight: bold;
   font-size: 18px;
+  text-align: left;
 }
 
-.section p {
+.ow .skill-set {
   text-align: left;
 }
 
