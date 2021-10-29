@@ -144,6 +144,31 @@ span {
   text-align: left;
 }
 
+.ow-list {
+  background-color: var(--off-white);
+  padding: 4rem;
+  text-align: left;
+}
+
+.w-list {
+  padding: 4rem;
+  text-align: left;
+  background-color: #e7c7c7;
+}
+
+.bb-list {
+  padding: 2rem;
+  text-align: left;
+  background-color: var(--off-white);
+
+}
+
+.b-list {
+  padding: 2rem;
+  text-align: left;
+  background-color: #e7c7c7;
+}
+
 /** footer **/
 
 .footer {
@@ -167,7 +192,7 @@ span {
   padding-inline-start: 0px;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
 
   body {
     text-align: justify;
@@ -193,6 +218,46 @@ span {
 }
 .link-secondary {
   padding: 5px;
+}
+
+.hero {
+  padding-top: 3rem;
+  padding-bottom: 0.5rem;
+  text-align: center;
+}
+
+.ow-list {
+  padding: 4rem;
+  margin: 2rem 2rem 2rem 0;
+  text-align: center;
+}
+
+.w-list {
+  padding: 4rem;
+  text-align: center;
+  margin: 2rem 2rem 2rem 0;
+}
+
+
+.bb-list {
+  padding: 2rem;
+  margin: 2rem;
+  text-align: justify;
+
+}
+
+.b-list {
+  padding: 2rem;
+  margin: 2rem;
+  text-align: justify;
+}
+
+.bb-list h1 {
+  text-align: left;
+}
+
+.b-list {
+  text-align: left;
 }
 
 }
