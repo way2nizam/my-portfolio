@@ -192,6 +192,13 @@ span {
   padding-inline-start: 0px;
 }
 
+.note {
+  max-width: 600px;
+  margin: auto;
+  background-color: #b5d9ff;
+  padding: 5px;
+}
+
 @media only screen and (max-width: 600px) {
 
   body {
